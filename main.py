@@ -6,8 +6,8 @@ if __name__ == "__main__":
     asignatura2 = Asignatura("Castellano", "Salon 201")
     grupo1 = Grupo()
 
-    print(asignatura1)
-    print(grupo1)
+    print(asignatura1.getNombreSalon())
+    print("Grupo de estudiantes: " + grupo1._grupo)
     print(grupo1.grado)
 
     grupo2 = Grupo("Grupo 5", [], ["Alejandro", "Carlos"])
@@ -19,12 +19,12 @@ if __name__ == "__main__":
     grupo4.agregarAlumno("Santiago", ["Jaime", "Pedro"])
     grupo5.agregarAlumno("Javier")
 
-    print(grupo3.listadoAlumnos)
-    print(grupo4.listadoAlumnos)
-    print(grupo5.listadoAlumnos)
+    print(grupo3._listadoAlumnos)
+    print(grupo4._listadoAlumnos)
+    print(grupo5._listadoAlumnos)
 
     grupo3.listadoAsignaturas(as1="Ciencias", as2="Quimica", as3="Ingles")
-    print(len(grupo3._asignaturas))
+    print(len(grupo3.listadoAsignaturas()))
 
     Grupo.asignarNombre("Grado 1")
     print(Grupo.grado)
