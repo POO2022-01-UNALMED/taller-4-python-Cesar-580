@@ -7,7 +7,7 @@ if __name__ == "__main__":
     grupo1 = Grupo()
 
     #print(asignatura1.getNombreSalon())
-    #print("Grupo de estudiantes: " + grupo1._grupo)
+    #print("Grupo de estudiantes: " + grupo1._grupo
     print(asignatura1)
     print(grupo1)
     print(grupo1.grado)
