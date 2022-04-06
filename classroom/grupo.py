@@ -37,3 +37,7 @@ class Grupo:
     @ classmethod
     def asignarNombre(cls, nombre="Grado 6"):
         cls.grado = nombre
+
+
+    def __str__(self):
+        return 'Grupo de estudiantes: {}'.format(self._grupo)

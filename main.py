@@ -6,8 +6,10 @@ if __name__ == "__main__":
     asignatura2 = Asignatura("Castellano", "Salon 201")
     grupo1 = Grupo()
 
-    print(asignatura1.getNombreSalon())
-    print("Grupo de estudiantes: " + grupo1._grupo)
+    #print(asignatura1.getNombreSalon())
+    #print("Grupo de estudiantes: " + grupo1._grupo)
+    print(asignatura1)
+    print(grupo1)
     print(grupo1.grado)
 
     grupo2 = Grupo("Grupo 5", [], ["Alejandro", "Carlos"])

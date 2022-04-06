@@ -2,7 +2,7 @@ class Carro:
     puertas = 4
     carros = 0
 
-    def __init__(self, referencia, peso = 4, marca = "Ford", motor = None):
+    def __init__(self, referencia, peso = 4, marca = "Ford", motor = None, *args, **kwargs):
         self._referencia = referencia
         self._peso = peso  # Peso en toneladas
         self._marca = marca

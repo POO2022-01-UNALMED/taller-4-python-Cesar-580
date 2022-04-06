@@ -6,3 +6,6 @@ class Asignatura:
 
     def getNombreSalon (self):
         return self._nombre + " "+ self._salon
+
+    def __str__(self):
+        return '{0} {1}'.format(self._nombre,self._salon)
